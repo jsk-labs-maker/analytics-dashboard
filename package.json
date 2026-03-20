@@ -6,11 +6,12 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "start": "serve dist -s -l tcp://0.0.0.0:$PORT"
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "serve": "^14.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
